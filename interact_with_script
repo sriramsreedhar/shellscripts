@@ -1,1 +1,19 @@
 ( echo yes ; echo no; echo yes ) | install.sh
+
+----
+$ cat test.sh 
+#!/bin/bash
+echo "whats your name"
+read n
+echo "thanks $n"
+-----
+
+$ (echo sriram) | ./test.sh 
+whats your name
+thanks sriram
+
+$ (echo harina) | ./test.sh 
+whats your name
+thanks harina
+$ 
+
