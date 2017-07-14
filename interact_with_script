@@ -1,1 +1,1 @@
-( echo yes ; echo 1024; echo yes ) | install.sh
+( echo yes ; echo no; echo yes ) | install.sh
