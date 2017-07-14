@@ -1,3 +1,7 @@
+
+passing input to interactive script
+-----------------------------------
+
 ( echo yes ; echo no; echo yes ) | install.sh
 
 ----
